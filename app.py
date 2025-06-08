@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 
 # Load the data
-df = pd.read_excel(r"D:\courses\sessions\ai\streamlit\glassdoor\2009.xlsx")
+df = pd.read_excel('2009.xlsx')
 
 # Set page config
 st.set_page_config(page_title="Sales Dashboard", layout="wide")
